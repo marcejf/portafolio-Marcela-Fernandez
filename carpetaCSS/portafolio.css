@@ -46,3 +46,26 @@ img.rounded-circle {
     border-color: solid rgb(31, 212, 236);
 }
 
+/* habiliddaes */
+.skill img {
+    width: 60px;
+    height: 60px; /* tamaño de la imagen */
+}
+
+.skill img:hover {
+    transform: scale(1.2); /* tamaño de la imagen */
+}
+
+.skill:hover span {
+    color: #ff8c00;
+
+}
+section.skills-section {
+    border: none !important;
+    background: transparent !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
